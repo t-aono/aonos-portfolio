@@ -5,11 +5,21 @@
 
     <v-main>
       <v-container class="mt-15">
-        <Products/>
-        <About/>
-        <Skill/>
-        <Career/>
-        <Contact/>
+        <div class="mt-10">
+          <Products/>
+        </div>
+        <div class="mt-10">
+          <About/>
+        </div>
+        <div class="mt-10">
+          <Skill/>
+        </div>
+        <div class="mt-10">
+          <Career/>
+        </div>
+        <div class="mt-10">
+          <Contact/>
+        </div>
       </v-container>
     </v-main>
 
