@@ -24,9 +24,9 @@
         </v-btn>
       </v-col>
       <v-col cols="2" lg="1">
-        <v-btn icon class="white--text" v-scroll-to="{el: '#career'}">
+        <v-btn icon class="white--text" v-scroll-to="{el: '#history'}">
           <v-icon>mdi-format-list-bulleted</v-icon>
-          career
+          history
         </v-btn>
       </v-col>
       <v-col cols="2" lg="1">

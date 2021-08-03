@@ -9,7 +9,7 @@
       <Products/>
       <About/>
       <Skill/>
-      <Career/>
+      <History/>
       <Contact/>
     </v-main>
 
@@ -24,7 +24,7 @@ import Navigation from './components/Navigation.vue';
 import Products from './components/Product.vue';
 import About from './components/About.vue';
 import Skill from './components/Skill.vue';
-import Career from './components/Career.vue';
+import History from './components/History.vue';
 import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
 
@@ -36,7 +36,7 @@ export default {
     About,
     Skill,
     Products,
-    Career,
+    History,
     Contact,
     Footer
   },
@@ -47,10 +47,13 @@ export default {
 </script>
 
 <style>
-h3 {
+.main-color {
+  background-color: #4dd0e1;
+}
+.main-color-txt {
   color: #4dd0e1;
 }
-h2 {
-  color: #314259;
+.sub-color {
+  background-color: #314259;
 }
 </style>
