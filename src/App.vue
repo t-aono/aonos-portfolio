@@ -3,24 +3,14 @@
 
     <Header/>
 
+    <Navigation/>
+
     <v-main>
-      <v-container class="mt-15">
-        <div class="mt-10">
-          <Products/>
-        </div>
-        <div class="mt-10">
-          <About/>
-        </div>
-        <div class="mt-10">
-          <Skill/>
-        </div>
-        <div class="mt-10">
-          <Career/>
-        </div>
-        <div class="mt-10">
-          <Contact/>
-        </div>
-      </v-container>
+      <Products/>
+      <About/>
+      <Skill/>
+      <Career/>
+      <Contact/>
     </v-main>
 
     <Footer/>
@@ -30,7 +20,8 @@
 
 <script>
 import Header from './components/Header.vue';
-import Products from './components/Products.vue';
+import Navigation from './components/Navigation.vue';
+import Products from './components/Product.vue';
 import About from './components/About.vue';
 import Skill from './components/Skill.vue';
 import Career from './components/Career.vue';
@@ -41,6 +32,7 @@ export default {
   name: 'App',
   components: { 
     Header,
+    Navigation,
     About,
     Skill,
     Products,
@@ -53,3 +45,12 @@ export default {
   }),
 };
 </script>
+
+<style>
+h3 {
+  color: #4dd0e1;
+}
+h2 {
+  color: #314259;
+}
+</style>
