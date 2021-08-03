@@ -1,7 +1,7 @@
 <template>
-  <v-row class="text-center">
+  <v-row class="text-center sub-color white--text">
     <v-col cols="12">
-      <h3 class="mb-0" id="about">about</h3>
+      <h3 class="mb-0 main-color-txt" id="about">about</h3>
       <h2 class="mb-5">自己紹介</h2>
       <v-container>
         <v-row>
@@ -31,23 +31,3 @@
     </v-col>
   </v-row>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style scoped>
-div.row {
-  background-color: #314259;
-  color: #fff;
-}
-h3 {
-  color: #4dd0e1;
-}
-h2 {
-  color: #fff;
-}
-p.text-justify {
-  line-height: 2rem;
-}
-</style>
