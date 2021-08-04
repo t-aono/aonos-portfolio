@@ -45,7 +45,7 @@ export default {
     years: [
       {
         year: "2011",
-        title: "営業職としてメーカー入社",
+        title: "新卒で営業職",
         sentence: "新卒で製薬メーカーに営業職入社。病院、クリニック、調剤薬局などを対象に自社医薬品の営業活動。2016年3月で退職。",
       },
       {
@@ -74,7 +74,7 @@ export default {
         sentence: "ココナラ、クラウドワークスなどを利用してプログラミングやWebサービス、ツールの制作を行っており対応案件は100件以上に。",
       },
     ],
-    sp: false,
+    sp: (window.innerWidth < 700) ? true : false,
   }),
   methods: {
     handleResize: function() {
@@ -83,7 +83,7 @@ export default {
     }
   },
   mounted: function () {
-    window.addEventListener('resize', this.handleResize)
+    window.addEventListener('resize', this.handleResize);
   },
 };
 </script>
@@ -93,6 +93,6 @@ export default {
 .theme--light.v-timeline::before {
   left: calc(50% - 3px);
   right: initial;
-  border: solid;
+  border: solid 2px;
 }
 </style>
