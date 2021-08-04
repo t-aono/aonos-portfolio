@@ -1,8 +1,8 @@
 <template>
-  <v-row class="text-center mt-15">
+  <v-row class="text-center mt-15 mb-10">
     <v-col cols="12">
-      <h3 class="mb-0" id="product">product</h3>
-      <h2 class="mb-5">制作物</h2>
+      <div class="text-h5 mb-0 main-color-txt" id="product">product</div>
+      <div class="text-h4 mb-5">制作物</div>
     </v-col>
 
     <v-col v-for="item in items" :key="item.title" cols="12" md="6">

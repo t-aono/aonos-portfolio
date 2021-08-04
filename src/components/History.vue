@@ -1,8 +1,8 @@
 <template>
-  <v-row class="text-center sub-color white--text">
+  <v-row class="text-center sub-color white--text py-10">
     <v-col cols="12">
-      <h3 class="mb-0 main-color-txt" id="history">history</h3>
-      <h2 class="mb-5">経歴</h2>
+      <div class="text-h5 mb-0 main-color-txt" id="history">history</div>
+      <div class="text-h4 mb-5">経歴</div>
       <v-container>
         <v-timeline :dense="sp">
           <v-timeline-item
@@ -17,6 +17,12 @@
               ></span>
             </template>
             <div class="py-4">
+              <div v-show="sp" class="mb-3">
+                <span
+                  class="headline font-weight-bold white--text"
+                  v-text="year.year">
+                </span>
+              </div>
               <h2 class="headline font-weight-light mb-4 white--text">
                 {{ year.title }}
               </h2>
@@ -45,32 +51,27 @@ export default {
       {
         year: "2016",
         title: "SESの会社に入社",
-        sentence: "プログラミングのスクールに通い、Java・SQL・データベース・ウェブサーバーについて学ぶ。その後、テスターとして小売業向け業務支援システムのカスタマイズ案件に参画。",
+        sentence: "プログラミングのスクールにて HTML / CSS / JavaScript / Java / SQL について学ぶ。その後、テスターとして小売業向け業務支援システムのカスタマイズ案件に参画。",
       },
       {
         year: "2017",
-        title: "複数の開発現場でチーム開発を経験",
-        sentence: "プログラマーとして Java や VBA の案件に参画。",
-      },
-      {
-        year: "2018",
-        title: "",
-        sentence: "",
+        title: "複数の開発現場を経験",
+        sentence: "プログラマー・テスターとして Java や VBA の保守開発案件に参画。チーム人数は5～10人くらい。",
       },
       {
         year: "2019",
-        title: "",
-        sentence: "",
+        title: "PHPでの開発を経験",
+        sentence: "既存Webシステム管理画面のカスタマイズ案件に参画。チーム人数は4人で画面設計、実装、テストなどを担当。",
       },
       {
         year: "2020",
-        title: "",
-        sentence: "",
+        title: "受託開発の会社に転職",
+        sentence: "PHP / JavaScript を使ったWebシステムの開発を担当。お客さんとの打ち合わせから画面設計、DB設計、実装、テストなどを担当。",
       },
       {
         year: "2021",
-        title: "",
-        sentence: "",
+        title: "副業の実績が上がる",
+        sentence: "ココナラ、クラウドワークスなどを利用してプログラミングやWebサービス、ツールの制作を行っており対応案件は100件以上に。",
       },
     ],
     sp: false,
