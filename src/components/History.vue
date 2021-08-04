@@ -91,8 +91,6 @@ export default {
 <style scoped>
 .v-application--is-ltr .v-timeline:not(.v-timeline--dense):not(.v-timeline--reverse):before,
 .theme--light.v-timeline::before {
-  left: calc(50% - 3px);
-  right: initial;
   border: solid 2px;
 }
 </style>
