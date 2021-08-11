@@ -1,4 +1,4 @@
-# portfolio
+# aonos-portfolio
 
 ## Project setup
 ```

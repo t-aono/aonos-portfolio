@@ -40,6 +40,9 @@ export default {
     Contact,
     Footer
   },
+  created: () => {
+    document.title = "aono's portfolio"
+  },
   data: () => ({
     //
   }),
