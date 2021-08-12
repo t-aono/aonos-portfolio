@@ -129,6 +129,7 @@ export default {
     close() {
       this.itemCount = 3;
       this.toggle = 'more';
+      window.scrollTo({top: 0, behavior: "smooth"});
     },
   },
 };
