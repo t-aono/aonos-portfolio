@@ -6,14 +6,11 @@
       <v-container>
         <div v-for="(items, key) in skills" :key="key">
           <p class="text-h5 mt-5">{{ key }}</p>
-          <v-row class="mb-5">
-            <v-col
+          <v-row justify="center" class="mb-5">
+            <v-card
               v-for="item in items"
               :key="item.name"
-              cols="6"
-              sm="4"
-              md="3"
-              lg="2"
+              class="pa-3 mx-2 mb-3"
             >
               <div class="text-h6">
                 <v-icon x-large color="#4dd0e1">{{ item.icon }}</v-icon>
@@ -26,7 +23,7 @@
                 background-color="#314259"
                 size="20"
               ></v-rating>
-            </v-col>
+            </v-card>
           </v-row>
         </div>
         <v-row class="mt-5" justify="center">
@@ -42,7 +39,7 @@ export default {
   data() {
     return {
       skills: {
-        フロントエンド: [
+        "フロントエンド": [
           {
             icon: "mdi-language-html5",
             name: "HTML",
@@ -143,6 +140,11 @@ export default {
             icon: "mdi-hexagon",
             name: "Heroku",
             star: 2,
+          },
+          {
+            icon: "mdi-aws",
+            name: "AWS",
+            star: 1,
           },
         ]
       },
