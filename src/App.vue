@@ -59,4 +59,7 @@ export default {
 .sub-color {
   background-color: #314259;
 }
+.sub-color-txt {
+  color: #314259;
+}
 </style>
