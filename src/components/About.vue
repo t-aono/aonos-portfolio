@@ -5,7 +5,7 @@
       <div class="text-h4 mb-5">自己紹介</div>
       <v-container>
         <v-row>
-          <v-col cols="12" md="2">
+          <v-col cols="12" md="2" lg="3" class="my-auto">
             <div>
               <v-avatar size="150">
                 <img
@@ -15,14 +15,15 @@
               </v-avatar>
             </div>
           </v-col>
-          <v-col cols="12" md="10">
-            <div class="lead text-center mx-10 mt-5">
+          <v-col cols="12" md="10" lg="9">
+            <div class="mx-3 mx-md-10 mt-5">
               <p class="text-justify">
-                福岡在住で、Webシステム受託開発の会社に勤めています。
-                プログラマー歴は5年くらいです。
-                プライベートでは勉強も兼ねてWebシステムの個人開発も行っています。
-                よく使うのは PHP や JavaScript で、最近は Laravel や Vue.js を学習しています。
-                それらを使って、Webシステムの新規作成や改修、機能追加など対応可能です。
+                福岡在住で、Webシステム受託開発の会社に勤めています。<br>
+                よく使うのは PHP / JavaScript / MySQL です。<br>
+                プログラマー歴は5年くらいです。<br>
+                プライベートでは個人でプログラムやWebシステムの制作も行っています。<br>
+                最近は Laravel やフロントエンドの技術を学習しています。<br>
+                それらを使って、Webシステムの新規作成や改修、機能追加など対応可能です。<br>
               </p>
             </div>
           </v-col>
@@ -31,3 +32,9 @@
     </v-col>
   </v-row>
 </template>
+
+<style scoped>
+p.text-justify {
+  line-height: 40px;
+}
+</style>

@@ -9,11 +9,8 @@
       <v-container>
         <v-row justify="center">
           <v-card v-for="(item, index) in items" :key="index" v-show="index < itemCount" class="ma-3 pa-1 text-left" width="300">
-            <v-card-title
-              ><v-icon class="mr-1">{{ item.icon }}</v-icon
-              >{{ item.title }}</v-card-title
-            >
-            <v-card-subtitle>{{ item.tool }}</v-card-subtitle>
+            <v-card-title>{{ item.title }}</v-card-title>
+            <v-card-subtitle><v-icon>{{ item.icon }}</v-icon> {{ item.tool }}</v-card-subtitle>
             <v-card-text>{{ item.summary }}</v-card-text>
             <v-card-actions>
               <v-btn color="cyan lighten-2">
