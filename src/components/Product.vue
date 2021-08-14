@@ -13,8 +13,8 @@
             <v-card-subtitle><v-icon>{{ item.icon }}</v-icon> {{ item.tool }}</v-card-subtitle>
             <v-card-text>{{ item.summary }}</v-card-text>
             <v-card-actions>
-              <v-btn color="cyan lighten-2">
-                <a :href="item.link" target="_blank">詳細を見る</a>
+              <v-btn color="cyan lighten-2" :href="item.link" target="_blank">
+                <span>詳細を見る</span>
               </v-btn>
             </v-card-actions>
           </v-card>
@@ -41,15 +41,15 @@ export default {
       toggle: 'more',
       items: [
         {
-          title: "レストランの予約システム",
+          title: "レストランの予約アプリ",
           icon: "mdi-vuejs",
           tool: "Vue.js / Vue Router / Firebase / Vutify / SmtpJS / SendGrid",
           summary:
             "カレンダーの空いているところを選んで予約ができ、管理画面で予約の管理ができる。",
-          link: "",
+          link: "https://ossified-elephant-7c0.notion.site/0ef3a755792d45f6a6d940f618737524",
         },
         {
-          title: "商品在庫発注管理システム",
+          title: "商品在庫発注管理アプリ",
           icon: "mdi-vuejs",
           tool: "Vue.js / Vue Router / Vuex / Firebase / Vutify",
           summary:
@@ -57,7 +57,7 @@ export default {
           link: "https://ossified-elephant-7c0.notion.site/faf4cda0c77948ddb9cce0418d38b186",
         },
         {
-          title: "アンケート管理システム",
+          title: "アンケートサイト",
           icon: "mdi-vuejs",
           tool: "Vue.js / Vue Router / Vuex / Chart.js / Firebase / BootstrapVue",
           summary:
@@ -65,7 +65,7 @@ export default {
           link: "https://ossified-elephant-7c0.notion.site/1f6cb43340624a1ea0177a1c907bad31",
         },
         {
-          title: "複数店舗の予約管理システム",
+          title: "複数店舗の予約管理アプリ",
           icon: "mdi-laravel",
           tool: "Laravel / SQLite / Tailwind CSS / Stripe",
           summary:
@@ -81,7 +81,7 @@ export default {
           link: "https://ossified-elephant-7c0.notion.site/f2cfe40274aa422fbeaa0e1aaf1c4aa6",
         },
         {
-          title: "オンライン講座のシフト依頼システム",
+          title: "オンライン講座のシフト管理アプリ",
           icon: "mdi-laravel",
           tool: "Laravel / SQLite / Tailwind CSS",
           summary:
@@ -89,7 +89,7 @@ export default {
           link: "https://ossified-elephant-7c0.notion.site/3bb11303ed594ec5970ebd8ff5474321",
         },
         {
-          title: "製造指示共有システム",
+          title: "製造指示共有アプリ",
           icon: "mdi-laravel",
           tool: "Laravel / SQLite / Tailwind CSS",
           summary:
