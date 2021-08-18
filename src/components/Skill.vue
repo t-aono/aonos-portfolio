@@ -11,6 +11,7 @@
               v-for="item in items"
               :key="item.name"
               class="pa-3 mx-2 mb-3"
+              width="170"
             >
               <div class="text-h6">
                 <v-icon x-large color="#4dd0e1">{{ item.icon }}</v-icon>
