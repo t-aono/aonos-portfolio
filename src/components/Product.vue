@@ -41,12 +41,36 @@ export default {
       toggle: 'more',
       items: [
         {
+          title: "トレーニング管理アプリ",
+          icon: "mdi-react",
+          tool: "React / TypeScript / Firebase / Chakra UI",
+          summary:
+            "ユーザーごとにトレーニングメニューの管理ができ、トレーニングの内容をを記録していくことができるWebアプリ。",
+          link: "https://ossified-elephant-7c0.notion.site/4098f3588edd4490b70355ad5e568d46",
+        },
+        {
+          title: "画像管理アプリ",
+          icon: "mdi-vuejs",
+          tool: "Nuxt.js / Firebase / VuexFire / Buefy",
+          summary:
+            "ユーザーごとにカテゴリーの管理や、画像の管理ができるWebアプリ。画像は Firebase Storage にアップロードされ一覧表示ができる。カテゴリーごとの絞り込みも可能。",
+          link: "https://ossified-elephant-7c0.notion.site/d70f94a29b3a481a8dfef28366207bae",
+        },
+        {
+          title: "観光写真アプリ",
+          icon: "mdi-vuejs",
+          tool: "Nuxt.js / Firebase / VuexFire / Vuetify",
+          summary:
+            "観光地の登録ができ、それに関連する画像を Pixabay API を用いて取得、表示できるWebアプリ。気に入った画像にいいねをすることでトップページに表示することができる。",
+          link: "https://ossified-elephant-7c0.notion.site/8953486949334fbf9c657039dcda7681",
+        },
+        {
           title: "レストランの予約アプリ",
           icon: "mdi-vuejs",
           tool: "Vue.js / Vue Router / Firebase / Vutify / SmtpJS / SendGrid",
           summary:
             "カレンダーの空いているところを選んで予約ができ、管理画面で予約の管理ができる。",
-          link: "https://ossified-elephant-7c0.notion.site/0ef3a755792d45f6a6d940f618737524",
+          link: "https://ossified-elephant-7c0.notion.site/00b7a4b0154041e8826ee86b635e975b",
         },
         {
           title: "商品在庫発注管理アプリ",
@@ -54,7 +78,7 @@ export default {
           tool: "Vue.js / Vue Router / Vuex / Firebase / Vutify",
           summary:
             "商品や発注、納入を記録できる。発注や納入の数量に応じて商品の在庫が自動で更新される。",
-          link: "https://ossified-elephant-7c0.notion.site/faf4cda0c77948ddb9cce0418d38b186",
+          link: "https://ossified-elephant-7c0.notion.site/4126e08c381c4fc089796968540d4c7b",
         },
         {
           title: "アンケートサイト",
@@ -62,7 +86,7 @@ export default {
           tool: "Vue.js / Vue Router / Vuex / Chart.js / Firebase / BootstrapVue",
           summary:
             "管理側でアンケートの管理や回答結果の確認ができる。利用者側のアンケートの回答がリアルタイムに結果のグラフに反映される。",
-          link: "https://ossified-elephant-7c0.notion.site/1f6cb43340624a1ea0177a1c907bad31",
+          link: "https://ossified-elephant-7c0.notion.site/15bbe493583a43608760bddfe2ed6dac",
         },
         {
           title: "複数店舗の予約管理アプリ",
@@ -70,7 +94,7 @@ export default {
           tool: "Laravel / SQLite / Tailwind CSS / Stripe",
           summary:
             "管理者は店舗や予約プランの管理ができ、ユーザーは予約後に決済ができるシステム。",
-          link: "https://ossified-elephant-7c0.notion.site/75a13517dd154f8fb2022b37c5b97e6f",
+          link: "https://ossified-elephant-7c0.notion.site/54f18f6e595447e9be6c072c223bdcbe",
         },
         {
           title: "タレントプロフィール検索サイト",
@@ -78,7 +102,7 @@ export default {
           tool: "Laravel / SQLite / Tailwind CSS",
           summary:
             "管理者はタレントプロフィールの登録・変種・削除ができ、ユーザーはタレントの検索ができる。",
-          link: "https://ossified-elephant-7c0.notion.site/f2cfe40274aa422fbeaa0e1aaf1c4aa6",
+          link: "https://ossified-elephant-7c0.notion.site/eb63168f5d9f4f01af37daea15bacf5e",
         },
         {
           title: "オンライン講座のシフト管理アプリ",
@@ -86,32 +110,16 @@ export default {
           tool: "Laravel / SQLite / Tailwind CSS",
           summary:
             "Googleカレンダーのある予定を取得して表示。事前に登録した講師に一括依頼できる。",
-          link: "https://ossified-elephant-7c0.notion.site/3bb11303ed594ec5970ebd8ff5474321",
+          link: "https://ossified-elephant-7c0.notion.site/72edad3d9b6044c0b99ec16816c31b13",
         },
-        {
-          title: "製造指示共有アプリ",
-          icon: "mdi-laravel",
-          tool: "Laravel / SQLite / Tailwind CSS",
-          summary:
-            "指示の一覧表示、詳細表示、登録、更新、削除ができるシステム。一覧表示の絞り込みも可能。",
-          link: "https://ossified-elephant-7c0.notion.site/03206a0884dc4e6ebf82b094aeada318",
-        },
-        {
-          title: "掲示板サイト",
-          icon: "mdi-language-php",
-          tool: "PHP / MySQL / Cloudinary / SendGrid",
-          summary:
-            "ログイン機能や投稿、コメント機能、画像アップロード機能を実装。",
-          link: "https://github.com/t-aono/php-bbs",
-        },
-        {
-          title: "メモアプリ",
-          icon: "mdi-language-php",
-          tool: "PHP / MySQL / JavaScript / jQuery / Ajax",
-          summary:
-            "メモの登録や更新、削除ができるWebアプリ。完了未完了のトグル機能も実装。",
-          link: "https://github.com/t-aono/php-memos",
-        },
+        // {
+        //   title: "製造指示共有アプリ",
+        //   icon: "mdi-laravel",
+        //   tool: "Laravel / SQLite / Tailwind CSS",
+        //   summary:
+        //     "指示の一覧表示、詳細表示、登録、更新、削除ができるシステム。一覧表示の絞り込みも可能。",
+        //   link: "https://ossified-elephant-7c0.notion.site/fee7baf7e39b4387a69b79c42bc0fe2e",
+        // }
       ],
     };
   },

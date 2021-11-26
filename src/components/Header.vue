@@ -1,7 +1,7 @@
 <template>
   <v-app-bar fixed color="cyan lighten-2" class="white--text">
 
-    <v-app-bar-title>aono's Protfolio</v-app-bar-title>
+    <v-app-bar-title>aono's Portfolio</v-app-bar-title>
 
     <v-row class="d-none d-md-flex">
       <v-spacer></v-spacer>
