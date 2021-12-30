@@ -1,7 +1,5 @@
 # aonos-portfolio
 
-====
-
 ## Overview
 
 A simple portfolio site built with vue.js.
