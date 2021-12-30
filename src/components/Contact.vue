@@ -10,12 +10,14 @@
               <v-text-field outlined label="お名前" v-model="name" :rules="required" ref="input[0]" color="#4dd0e1"></v-text-field>
               <v-text-field outlined label="メールアドレス" v-model="mail" :rules="email" ref="input[1]" color="#4dd0e1"></v-text-field>
               <v-textarea outlined label="内容" v-model="content" :rules="required" ref="input[2]" color="#4dd0e1"></v-textarea>
-              <p class="message sub-color-txt" v-if="success">送信が完了しました。3日以内に返信いたします。</p>
-              <v-btn large color="cyan lighten-2" @click="send" v-else>送信</v-btn>
-              <div v-show="submit" class="progress">
+              <div v-if="submit" class="progress">
                 <div>
                   <v-progress-circular :size="100" :width="5" class="main-color-txt" indeterminate></v-progress-circular>
                 </div>
+              </div>
+              <div v-else>
+                <p class="message sub-color-txt" v-if="success">送信が完了しました。数日中に返信いたします。</p>
+                <v-btn large color="cyan lighten-2" @click="send" v-else>送信</v-btn>
               </div>
             </form>
           </v-col>
@@ -93,6 +95,8 @@ button.v-btn {
 }
 div.progress {
   height: 0;
+  position: relative;
+  top: 3em;
 }
 div.progress > div {
   position: relative;
