@@ -9,8 +9,8 @@
             <div>
               <v-avatar size="150">
                 <img
-                  src="https://www.aonoweb.com/wp-content/uploads/2021/06/profile.jpeg"
-                  alt="aono"
+                  src="../assets/icon.png"
+                  alt="icon"
                 >
               </v-avatar>
             </div>
