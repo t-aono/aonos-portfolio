@@ -26,7 +26,7 @@ A simple portfolio site built with vue.js.
 Compiles and minifies for production
 
 ```
-yarn run serve
+yarn run build
 ```
 
 ## Install
