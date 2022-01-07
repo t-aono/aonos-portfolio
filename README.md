@@ -26,7 +26,7 @@ A simple portfolio site built with vue.js.
 Compiles and minifies for production
 
 ```
-yarn run build
+yarn run serve
 ```
 
 ## Install
@@ -45,10 +45,10 @@ git clone git@github.com:t-aono/aonos-portfolio.git
 cp .env.example .env
 ```
 
-3. Add the address of the inquiry form and the mail server information.  
-   (Account is required because SendGridApi is used)
+3.  Add the address of the inquiry form and the mail server information.  
+    (Account is required because SendGridApi is used)
 
-4. Compiles and hot-reloads for development
+4.  Compiles and hot-reloads for development
 
 ```
 yarn run serve
@@ -56,17 +56,9 @@ yarn run serve
 
 <!-- ## Contribution -->
 
-```
-yarn run test
-```
+<!-- ## Licence -->
 
-### Lints and fixes files
-
-```
-yarn run lint
-```
-
-### Customize configuration
+## Author
 
 [t-aono](https://github.com/t-aono)
 
