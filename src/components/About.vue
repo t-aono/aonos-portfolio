@@ -8,22 +8,19 @@
           <v-col cols="12" md="2" lg="3" class="my-auto">
             <div>
               <v-avatar size="150">
-                <img
-                  src="../assets/icon.png"
-                  alt="icon"
-                >
+                <img src="../assets/icon.jpg" alt="icon" />
               </v-avatar>
             </div>
           </v-col>
           <v-col cols="12" md="10" lg="9">
             <div class="mx-3 mx-md-10 mt-5">
               <p class="text-justify">
-                福岡在住で、Webシステム受託開発の会社に勤めています。<br>
-                よく使うのは PHP / JavaScript / MySQL です。<br>
-                プログラマー歴は5年くらいです。<br>
-                プライベートでは個人でプログラムやWebシステムの制作も行っています。<br>
-                最近は Laravel やフロントエンドの技術を学習しています。<br>
-                それらを使って、Webシステムの新規作成や改修、機能追加など対応可能です。<br>
+                福岡在住で、Webシステム受託開発の会社に勤めています。<br />
+                よく使うのは PHP / JavaScript / MySQL です。<br />
+                プログラマー歴は5年くらいです。<br />
+                プライベートでは個人でプログラムやWebシステムの制作も行っています。<br />
+                最近は Laravel やフロントエンドの技術を学習しています。<br />
+                それらを使って、Webシステムの新規作成や改修、機能追加など対応可能です。<br />
               </p>
             </div>
           </v-col>
@@ -34,7 +31,7 @@
 </template>
 
 <style scoped>
-p.text-justify {
-  line-height: 40px;
-}
+  p.text-justify {
+    line-height: 40px;
+  }
 </style>
