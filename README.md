@@ -10,7 +10,7 @@ A simple portfolio site built with vue.js.
 
 ## Demo
 
-![SgHGmPR2tFxouyyWeb5D1641513457-1641513511](https://user-images.githubusercontent.com/46856574/148469189-5ff0bff2-0cd4-4464-a91a-18b930073ad7.gif)
+![N6ePcFEho3Np5kUSfCew1641893794-1641893805](https://user-images.githubusercontent.com/46856574/148918075-953df4ee-e43f-4497-8288-82b758b50daa.gif)
 
 <!-- ## VS. -->
 
